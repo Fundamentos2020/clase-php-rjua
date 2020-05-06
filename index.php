@@ -29,4 +29,5 @@ $json='{"claveunica":"241584","nombre":"josue","apellido":"sanchez"}';
 $alumno_aux = json_decode($json);
 
 echo $alumno_aux->claveunica;
+
 ?>
